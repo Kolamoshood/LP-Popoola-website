@@ -1,12 +1,4 @@
-/*-----------------------------------------------------------------------------------
 
-    Theme Name: LawGuru - Law Firm and Attorney HTML5 Template 
-    Author: MirrorTheme
-    Support: mehedix129@gmail.com
-    Description: LawGuru - Law Firm and Attorney HTML5 Template 
-    Version: 1.0
-
------------------------------------------------------------------------------------
 
 /************ TABLE OF CONTENTS ***************
 
@@ -66,13 +58,13 @@
   /**
   @color declaration
   */
-  --mt-bule: #0a377f;
+  --mt-bule: #3f87fa;
   --mt-text-light-white: #fcf7e9;
-  --mt-text-dark-white: #b7cae7;
+  --mt-text-dark-white: #183764;
   --mt-bg-light-white: #fcf7e9;
   --mt-bg-dark-white: #f3efe1;
   --mt-brown: #9e6b58;
-  --mt-text-color: #0a377f;
+  --mt-text-color: #3f87fa;
   /**
   @font weight declaration
   */
@@ -475,7 +467,7 @@ input[type=color] {
 }
 
 .bg-blue {
-  background: var(--mt-bule);
+  background:#3f87fa;
 }
 
 .tx-white {
@@ -487,11 +479,11 @@ input[type=color] {
 /*----------------------------------------*/
 .page-title-area {
   background: url(assets/img/footer/page-title-img.png) top right/cover no-repeat;
-  background-color: rgba(0, 0, 0, 0);
-  background-color: var(--mt-bule);
+  background-color: rgba(21, 139, 236, 0);
+  background-color:#3f87fa;
 }
 .page-title-area .section-overlay {
-  background: linear-gradient(127deg, rgb(10, 55, 127) 0%, rgb(10, 55, 127) 50%, rgba(10, 55, 127, 0.7763480392) 100%);
+  background: linear-gradient(127deg, rgb(57, 121, 225) 0%, rgb(31, 117, 255) 50%, rgba(33, 117, 252, 0.692) 100%);
 }
 
 .page-title-wrappper {
@@ -1097,7 +1089,7 @@ input[type=color] {
 /*  12. HERO SECTION CSS START
 /*----------------------------------------*/
 .hero-section {
-  background-image: url(assets/img/hero/hero-bg.png);
+  background:var(--mt-bule);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -1114,7 +1106,7 @@ input[type=color] {
   margin-top: 10px;
 }
 .hero-content .hero-tagline {
-  color: var(--mt-text-dark-white);
+  color:#ebebeb;
   font-size: var(--mt-fz-p);
   font-weight: var(--mt-fw-medium);
 }
@@ -1761,7 +1753,7 @@ footer.footer {
   background-color: var(--mt-bule);
 }
 footer.footer .section-overlay {
-  background: linear-gradient(127deg, rgb(10, 55, 127) 0%, rgb(10, 55, 127) 60%, rgba(10, 55, 127, 0.7763480392) 100%);
+  background: linear-gradient(127deg, rgb(54, 131, 255) 0%, rgb(81, 144, 244) 60%, rgba(42, 123, 255, 0.808) 100%);
 }
 
 .newsletter h3 {
